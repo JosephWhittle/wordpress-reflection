@@ -18,6 +18,9 @@
  * @package WordPress
  */
 
+  //ADDED THESE TO MANUALLY FIX THE LOG IN PROBLEMS
+  define('WP_SITEURL', 'http://localhost/wordpress-reflection/');
+  define('WP_HOME', 'http://localhost/wordpress-reflection/');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wp_reflection' );
